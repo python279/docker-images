@@ -1,0 +1,6 @@
+[cdh5]
+name=cdh5
+baseurl=http://kubernetes.docker.internal:8888/cloudera-cdh5/
+enabled=1
+gpgcheck=0
+

@@ -1,0 +1,11 @@
+version: '3.2'
+services:
+  hue:
+    image: pab/hue_base:latest
+    hostname: hue
+    container_name: hue
+    restart: always
+    ports:
+    - "8080:8888"
+    volumes:
+      - .:/mnt
